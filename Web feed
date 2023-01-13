@@ -1,0 +1,21 @@
+import json
+
+def lambda_handler(event, context):
+
+# TODO implement
+
+return {
+
+'statusCode: 200,
+
+'body': json.dumps ('Event Tested Perfectly >
+
+}
+
+print("I might be the Hello World line.")
+
+Infrastructure-as-a-Service, commonly referred to as simply “IaaS,” is a form of cloud computing 
+that delivers fundamental compute, network, and storage resources to consumers on-demand, over 
+the internet, and on a pay-as-you-go basis. IaaS enables end users to scale and shrink resources on 
+an as-needed basis, reducing the need for high, up-front capital expenditures or unnecessary 
+“owned” infrastructure, especially in the case of “spiky” workloads.
